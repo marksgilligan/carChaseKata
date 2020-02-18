@@ -4,6 +4,8 @@
 //If the police reach the bridge before you then you'll be caught
 //Take care, if you puncture your tyre then your speed is halved!
 //Work out if you can make it!
+//If you can return : "You got away!"
+//If not, return: "You've been caught!"
 
 function chase(
   policeSpeed,
@@ -12,7 +14,7 @@ function chase(
   catchDistance,
   puncturedTire
 ) {
-  //CODE HERE PLZ X
+  //CODE HERE PLZ X <3
 }
 
 module.exports = {
