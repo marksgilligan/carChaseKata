@@ -12,17 +12,7 @@ function chase(
   catchDistance,
   puncturedTire
 ) {
-  if (puncturedTire) {
-    yourSpeed = yourSpeed / 2;
-  }
-  let timeToEscape = escapeDistance / yourSpeed;
-  let policeTimeToCatch = catchDistance / policeSpeed;
-
-  if (policeTimeToCatch <= timeToEscape) {
-    return "You've been caught!";
-  } else if (policeTimeToCatch > timeToEscape) {
-    return "You got away!";
-  }
+  //CODE HERE PLZ X
 }
 
 module.exports = {
